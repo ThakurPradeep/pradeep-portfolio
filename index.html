@@ -1,56 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pradeep Kumar | Magento 2 Certified Developer</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Poppins', sans-serif; background: #f8fafc; color: #333; line-height: 1.6; }
-    header { background: linear-gradient(120deg, #1a237e, #3949ab); color: white; padding: 60px 20px; text-align: center; }
-    header h1 { font-size: 2.4rem; margin-bottom: 10px; }
-    header p { font-size: 1.1rem; opacity: 0.9; }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-    .contact-info { margin-top: 15px; font-size: 0.95rem; }
-    .contact-info a { color: #ffeb3b; text-decoration: none; }
-    .container { max-width: 1100px; margin: 40px auto; padding: 20px; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f8fafc;
+      color: #333;
+      line-height: 1.6;
+    }
 
-    section { background: #fff; border-radius: 12px; padding: 25px 30px; margin-bottom: 25px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); }
-    h2 { color: #1a237e; border-bottom: 2px solid #e0e0e0; padding-bottom: 8px; margin-bottom: 20px; }
+    header {
+      background: linear-gradient(120deg, #1a237e, #3949ab);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
 
-    ul { list-style: disc inside; margin-top: 10px; }
-    .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px; }
+    header h1 {
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+    }
 
-    .project { margin-bottom: 30px; }
-    .project h3 { color: #3949ab; margin-bottom: 5px; }
-    .project p { margin-bottom: 8px; }
-    .project a { color: #1a237e; text-decoration: none; font-weight: 500; }
-    .project a:hover { text-decoration: underline; }
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
 
-    footer { text-align: center; padding: 25px; background: #1a237e; color: #fff; font-size: 0.9rem; }
-    .btn { display: inline-block; background: #1a237e; color: white; padding: 8px 18px; border-radius: 6px; text-decoration: none; margin-top: 10px; transition: 0.3s; }
-    .btn:hover { background: #3949ab; }
+    .contact-info {
+      margin-top: 15px;
+      font-size: 0.95rem;
+    }
+
+    .contact-info a {
+      color: #ffeb3b;
+      text-decoration: none;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    section {
+      background: #fff;
+      border-radius: 12px;
+      padding: 25px 30px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    h2 {
+      color: #1a237e;
+      border-bottom: 2px solid #e0e0e0;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: disc inside;
+      margin-top: 10px;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 10px;
+    }
+
+    .project {
+      margin-bottom: 30px;
+    }
+
+    .project h3 {
+      color: #3949ab;
+      margin-bottom: 5px;
+    }
+
+    .project p {
+      margin-bottom: 8px;
+    }
+
+    .project a {
+      color: #1a237e;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .project a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #1a237e;
+      color: #fff;
+      font-size: 0.9rem;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #1a237e;
+      color: white;
+      padding: 8px 18px;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 10px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #3949ab;
+    }
+
     .btn-download {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #0077b6;
-    color: #fff;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 8px;
-    transition: 0.3s;
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #0077b6;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
     }
-   .btn-download:hover {
-    background-color: #023e8a;
-   }
+
+    .btn-download:hover {
+      background-color: #023e8a;
+    }
+
     @media (max-width: 600px) {
-      header h1 { font-size: 1.8rem; }
-      section { padding: 20px; }
+      header h1 {
+        font-size: 1.8rem;
+      }
+
+      section {
+        padding: 20px;
+      }
     }
-    
   </style>
 </head>
+
 <body>
 
   <header>
@@ -61,7 +162,7 @@
       📞 +91 7042448203 | 📍 Noida (UP), India
     </div>
   </header>
- 
+
   <div class="container">
     <a href="PRADEEP_KUMAR_Magento.pdf" download class="btn-download">📄 Download Resume (PDF)</a>
     <section id="profile">
@@ -104,21 +205,24 @@
       <div class="project">
         <h3><a href="https://carpetexchange.com/" target="_blank">Carpet Exchange</a></h3>
         <p><strong>Tech:</strong> Magento 2, MySQL, Apache, Ajax, GCP, Bitbucket, Asana</p>
-        <p>Developed custom modules, product imports, 3rd-party API integrations, Mega Menu, and product recommendations.</p>
+        <p>Developed custom modules, product imports, 3rd-party API integrations, Mega Menu, and product
+          recommendations.</p>
         <p><strong>Role:</strong> Backend Developer | <strong>Team Size:</strong> 5</p>
       </div>
 
       <div class="project">
         <h3><a href="https://shop.celcom.com.my/" target="_blank">Celcom Malaysia</a></h3>
         <p><strong>Tech:</strong> Magento 2, GraphQL, REST API, Angular, React, GCP, Jira</p>
-        <p>Integrated APIs for mobile apps, GraphQL endpoints, and GrabPay payment gateway. Managed deployments with DevOps.</p>
+        <p>Integrated APIs for mobile apps, GraphQL endpoints, and GrabPay payment gateway. Managed deployments with
+          DevOps.</p>
         <p><strong>Role:</strong> Backend Developer | <strong>Team Size:</strong> 12</p>
       </div>
 
       <div class="project">
         <h3><a href="https://www.elsevier.com/" target="_blank">Elsevier</a></h3>
         <p><strong>Tech:</strong> Magento 2, MySQL, Apache, Bitbucket, Jira</p>
-        <p>Developed multi-language eCommerce system (12+ stores), customized product/category pages, and managed deployments.</p>
+        <p>Developed multi-language eCommerce system (12+ stores), customized product/category pages, and managed
+          deployments.</p>
         <p><strong>Role:</strong> Backend Developer | <strong>Team Size:</strong> 7</p>
       </div>
 
@@ -143,7 +247,9 @@
         <p><strong>Role:</strong> Backend Developer | <strong>Team Size:</strong> 3</p>
       </div>
 
-      <p><strong>Other Magento 2 Projects:</strong> <a href="https://www.buyasafe.com.au" target="_blank">BuyASafe</a>, <a href="https://muau.ch/" target="_blank">Muau</a>, <a href="https://www.chapelle.co.uk/" target="_blank">Chapelle</a></p>
+      <p><strong>Other Magento 2 Projects:</strong> <a href="https://www.buyasafe.com.au" target="_blank">BuyASafe</a>,
+        <a href="https://muau.ch/" target="_blank">Muau</a>, <a href="https://www.chapelle.co.uk/"
+          target="_blank">Chapelle</a></p>
       <p><strong>Magento 1 Projects:</strong> Spencer’s, CompressorWorld, ClubColors, TheCheeseMarket</p>
     </section>
 
@@ -155,8 +261,11 @@
     <section id="certifications">
       <h2>Certifications & Profiles</h2>
       <ul>
-        <li><strong>Adobe Magento 2 Certified Developer</strong> – <a href="https://certification.adobe.com/credential/verify/cf0d0b3c-da47-11ef-988342010a40002a" target="_blank">Verify Certificate</a></li>
-        <li><strong>Stack Overflow:</strong> <a href="https://stackoverflow.com/users/5907811/pradeep-thakur" target="_blank">Profile Link</a></li>
+        <li><strong>Adobe Magento 2 Certified Developer</strong> – <a
+            href="https://certification.adobe.com/credential/verify/cf0d0b3c-da47-11ef-988342010a40002a"
+            target="_blank">Verify Certificate</a></li>
+        <li><strong>Stack Overflow:</strong> <a href="https://stackoverflow.com/users/5907811/pradeep-thakur"
+            target="_blank">Profile Link</a></li>
       </ul>
     </section>
 
@@ -169,8 +278,9 @@
   </div>
 
   <footer>
-    © 2025 Pradeep Kumar | Magento 2 Certified Developer
+    © 2026 Pradeep Kumar | Magento 2 Certified Developer
   </footer>
 
 </body>
+
 </html>
